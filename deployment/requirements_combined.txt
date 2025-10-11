@@ -1,0 +1,26 @@
+# Combined requirements for Quantum.ipynb and Classic_ML_from_Quantum.ipynb
+
+# Core libraries
+numpy>=1.26
+pandas>=2.2
+matplotlib>=3.9
+seaborn>=0.13
+scikit-learn>=1.5
+
+# Quantum computing
+qiskit>=1.2
+qiskit-aer>=0.15
+qiskit-machine-learning>=0.7
+
+# Utilities and helpers
+joblib>=1.4
+requests>=2.32
+pylatexenc>=2.10
+
+# Geospatial / Earth Engine
+geemap>=0.33
+earthengine-api>=1.1.0
+
+# Optional (for notebooks, visualization, progress tracking)
+jupyter>=1.0
+tqdm>=4.66
